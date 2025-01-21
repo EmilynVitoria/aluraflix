@@ -36,8 +36,13 @@ Siga estas etapas para instalar e executar o projeto localmente:
    ```bash
    npm install
    ```
+3. Para rodar o servidor local da API (My-json-server), crie um arquivo db.json ou baixe o arquivo com dados mockados do My-json-server e configure o JSON conforme as necessidades da aplicação.
+Execute o servidor da API:
+ ```bash
+   npx json-server --watch db.json --port 5000
+   ```
 
-3. Execute a aplicação:
+4. Execute a aplicação:
    ```bash
    npm start
    ```

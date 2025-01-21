@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <Logo src={logo} alt="AluraFlix logo" />
-      <p>Developer by Alura Latam &copy; 2025</p>
+      <p>Developer by Emilyn Santos &copy; 2025</p>
     </FooterContainer>
   );
 };
