@@ -6,7 +6,7 @@ import NotFound from "./Pages/NotFound/NotFound";
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Routes>
         <Route path="/" element={<BasePage />}>
           <Route index element={<Home />} />

@@ -1,0 +1,100 @@
+{
+  "video": [
+    {
+      "id": "7d15",
+      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
+      "categoria": "FRONT END",
+      "img": "https://i.ytimg.com/vi/ZY3-MFxVdEw/maxresdefault.jpg",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZY3-MFxVdEw&psig=AOvVaw2NbVxUUgTtP2obVfhyevvr&ust=1737568061949000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCPj3u7Svh4sDFQAAAAAdAAAAABAE",
+      "descricao": "O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa nesse episódio! "
+    },
+    {
+      "titulo": "Criando seu Primeiro Projeto Front End do Zero (HTML, CSS e JavaScript)",
+      "categoria": "FRONT END",
+      "img": "https://i.ytimg.com/vi/k6DSb61nCFk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAyH-pu1B-q5U1bguRJBg2kN6Ob2Q",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dk6DSb61nCFk&psig=AOvVaw2NbVxUUgTtP2obVfhyevvr&ust=1737568061949000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCPj3u7Svh4sDFQAAAAAdAAAAABAI",
+      "descricao": "Esse é um projeto bem completo onde vamos construir um aplicativo de Apple Watch que é um aplicativo de exercícios.\nVou mostrar o passo a passo da construção desse aplicativo do zero",
+      "id": "32f6"
+    },
+    {
+      "titulo": "CAMINHOS PARA SER UM DEV FRONT-END EM 2023 (GUIA COMPLETO E ATUALIZADO)",
+      "categoria": "FRONT END",
+      "img": "https://i.ytimg.com/vi/30nlBGjPRYM/maxresdefault.jpg",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D30nlBGjPRYM&psig=AOvVaw2NbVxUUgTtP2obVfhyevvr&ust=1737568061949000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCPj3u7Svh4sDFQAAAAAdAAAAABAS",
+      "descricao": "Se tornar um Dev Front-End em 2025 nunca foi tão... DIVERTIDO! Não é novidade que a área de Front-End vem crescendo e ficando cada vez mais complexa. Questão é saber o que e quando estudar cada assunto. Nesse guia em vídeo, explicamos quais são as tecnologias e as tendências para quem vai começar no Front-End em 2025.",
+      "id": "ae64"
+    },
+    {
+      "id": "69f3",
+      "titulo": "Front-end, Back-end e Full stack - @Curso em Vídeo HTML5 e CSS3",
+      "categoria": "FRONT END",
+      "img": "https://i.ytimg.com/vi/iSqf2iPqJNM/maxresdefault.jpg",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DiSqf2iPqJNM&psig=AOvVaw2NbVxUUgTtP2obVfhyevvr&ust=1737568061949000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCPj3u7Svh4sDFQAAAAAdAAAAABAc",
+      "descricao": "O Curso de HTML5 e CSS3 vai ensinar a criar sites usando a linguagem de marcação hipertexto (HTML) e folhas de estilo em cascata (CSS), todas em suas versões mais recentes"
+    },
+    {
+      "titulo": "APRENDA NODE E EXPRESS NA PRÁTICA | TECNOLOGIAS IMPORTANTES PRA UM DESENVOLVEDOR BACK-END",
+      "categoria": "BACK END",
+      "img": "https://i.ytimg.com/vi/wXMlMsDvk2M/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCNXW23JqXmPhpLyRCBDU-eT3VDMQ",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLsFVybaG4mOAWLV8935uErnhYVntUix44&psig=AOvVaw2G2ZwhseIVQwLsD9-GJYBS&ust=1737571769057000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMDI-6G9h4sDFQAAAAAdAAAAABAI",
+      "descricao": "Aprenda uma das tecnologias mais importantes do mercado, quando se fala de back-end. \nHoje vou te ensinar sobre NODE e também sobre EXPRESS, um dos frameworks mais famosos no NODE. Bora lá pro vídeo!",
+      "id": "d553"
+    },
+    {
+      "titulo": "Android Studio | Como o Flutter cria aplicativos para Android e IOS ao mesmo tempo ?",
+      "categoria": "BACK END",
+      "img": "https://i.ytimg.com/vi/Yl3Q5Y-nd7o/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAkgsH72ryWVJR5Z9j6muOgEkQOIQ",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DaAkAm81vxhY&psig=AOvVaw3hWfy_49ZPyS25PFb4ppcN&ust=1737572180615000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMi8sea-h4sDFQAAAAAdAAAAABBA",
+      "descricao": "Entenda como esse framework poderoso consegue criar aplicativos nativos para Android e IOS ao mesmo tempo, através do mesmo código.",
+      "id": "5fd7"
+    },
+    {
+      "id": "2f8a",
+      "titulo": "Aprendendo React do Zero, Conectando Back e Front End, e Consumindo API",
+      "categoria": "BACK END",
+      "img": "https://i.ytimg.com/vi/_gHr2Pe5LCY/maxresdefault.jpg",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_gHr2Pe5LCY&psig=AOvVaw3hWfy_49ZPyS25PFb4ppcN&ust=1737572180615000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMi8sea-h4sDFQAAAAAdAAAAABBJ",
+      "descricao": "Neste vídeo, você aprenderá a construir uma aplicação"
+    },
+    {
+      "id": "7ade",
+      "titulo": "Como iniciar em Desenvolvimento Mobile ? O que estudar ?",
+      "categoria": "MOBILE",
+      "img": "https://i.ytimg.com/vi/QGTyIWTCCmY/maxresdefault.jpg",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQGTyIWTCCmY&psig=AOvVaw2zr4Nls-d0ABACiergQiwQ&ust=1737575722370000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNDkyvzLh4sDFQAAAAAdAAAAABAE",
+      "descricao": "Neste vídeo eu mostro para vocês o passo a passo para quem deseja iniciar na carreira de desenvolvimento Mobile e o que você deve estudar para isso. "
+    },
+    {
+      "titulo": "Não se torne um DEV MOBILE antes de ver esse vídeo!!! TUDO O QUE VOCÊ PRECISA SABER SOBRE MOBILE!!! ",
+      "categoria": "MOBILE",
+      "img": "https://i.ytimg.com/vi/uY1kCbweTEw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC9v90GJ0pUmegdIjVv-ksYVQ4EBw",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DuY1kCbweTEw&psig=AOvVaw2zr4Nls-d0ABACiergQiwQ&ust=1737575722370000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNDkyvzLh4sDFQAAAAAdAAAAABAK",
+      "descricao": "se tornando dev mobile",
+      "id": "8263"
+    },
+    {
+      "id": "b5cb",
+      "titulo": "Desenvolvimento Mobile Multiplataforma vs Nativo: Qual utilizar?",
+      "categoria": "MOBILE",
+      "img": "https://i.ytimg.com/vi/7G1QhmvLqqE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDPV7FxD19HuGXrwSn7ynZBHrv6Tg",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7G1QhmvLqqE&psig=AOvVaw2zr4Nls-d0ABACiergQiwQ&ust=1737575722370000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNDkyvzLh4sDFQAAAAAdAAAAABAT",
+      "descricao": "Qual plataforma escolher? Mobile"
+    },
+    {
+      "id": "d91f",
+      "titulo": "🔴Como Criar Aplicativos Android E Ganhar Dinheiro em 2024",
+      "categoria": "MOBILE",
+      "img": "https://i.ytimg.com/vi/Gc4gaN3szF4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAYsvIJS2oz03PNe1ZcT1XdU4UgUg",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DGc4gaN3szF4&psig=AOvVaw2zr4Nls-d0ABACiergQiwQ&ust=1737575722370000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNDkyvzLh4sDFQAAAAAdAAAAABAm",
+      "descricao": "Nesse vídeo eu vou falar quais são as principais técnicas que você precisa aprender, pra começar a criar aplicativos profissionais para o sistema Android."
+    },
+    {
+      "id": "90db",
+      "titulo": "Qual back-end devo utilizar com React?",
+      "categoria": "BACK END",
+      "img": "https://i.ytimg.com/vi/hMDtGVn248s/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBa6OYdA6CvxNTDdmNMHyQynESRwQ",
+      "video": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhMDtGVn248s&psig=AOvVaw1zxgBAlzbAq9ug8FLx-8E9&ust=1737578568536000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMCL4MfWh4sDFQAAAAAdAAAAABAE",
+      "descricao": "ambém tem essa dúvida? Então assista ao vídeo e descubra qual a melhor maneira de utilizar back-end com React! "
+    }
+  ]
+}

@@ -5,16 +5,11 @@ import {
   CardImage,
   IconButton,
 } from "./Card.styled";
-
 import { useVideoContext } from "../../Contexts/VideoContext";
 
-const Card = ({ video }) => {
-  const { deleteVideo, updateVideo } = useVideoContext();
-
-  const handleEdit = () => {
-    const updatedVideo = { ...video, title: "Nuevo Título" }; // Cambia según lo que necesites
-    updateVideo(video.id, updatedVideo);
-  };
+const Card = ({ video, onEdit}) => {
+  const { deleteVideo } = useVideoContext();
+  
 
   return (
     <CardContainer>
@@ -24,7 +19,7 @@ const Card = ({ video }) => {
           <FaTrashAlt />
         </IconButton>
 
-        <IconButton onClick={handleEdit}>
+        <IconButton onClick={() => onEdit(video)}>
           <FaEdit />
         </IconButton>
       </CardActions>

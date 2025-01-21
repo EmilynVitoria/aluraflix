@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://67852c161ec630ca33a78e42.mockapi.io/",
+  baseURL: "http://localhost:5000",
 });
 
 export const getVideos = async () => {
@@ -34,13 +34,15 @@ export const deleteVideo = async (videoId) => {
   }
 };
 
-export const updateVideo = async (videoId, updatedVideo) => {
+export const updateVideo = async (videoData, videoId) => {
   try {
-    const response = await api.put(`/video/${videoId}`, updatedVideo);
-    return response.data;
-  } catch (error) {
-    console.error("Erro ao atualizar vídeo", error);
-    throw error;
+    const url = `/video/${videoId}`;
+    const res = await api.put(url, videoData);
+    return res.data;
+  }
+  catch (erro) {
+    console.error("Erro ao atualizar vídeo", erro);
+    return erro;
   }
 };
 

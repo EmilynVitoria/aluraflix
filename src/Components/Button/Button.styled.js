@@ -24,4 +24,19 @@ export const StyledButton = styled.button`
   &:hover {
     background-color: ${({ theme }) => theme.colors.primaryHover};
   }
+
+  @media (max-width: 768px) {
+    width: 100%;  /* Faz o botão ocupar a largura total */
+    margin-bottom: 0.5rem;
+
+    /* flex-direction: column;
+    gap: 0.5rem;
+    align-items: center; */
+  }
+
+  @media (max-width: 480px) {
+  width: 100%;
+  font-size: 1rem;
+}
+
 `;

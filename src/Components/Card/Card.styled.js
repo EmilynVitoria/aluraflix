@@ -5,7 +5,7 @@ export const CardContainer = styled.div`
   width: 18.75rem;
   background-color: #fff;
   border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); */
   overflow: hidden;
   transition: transform 0.3s;
 
@@ -24,7 +24,7 @@ export const CardActions = styled.div`
   bottom: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0.5rem;
   background: rgba(0, 0, 0, 0.7);
 `;

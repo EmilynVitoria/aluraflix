@@ -15,15 +15,27 @@ export const useVideoContext = () => {
 export const VideoProvider = ({ children }) => {
   const [videos, setVideos] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [message, setMessage] = useState("");
+
+  const onSave = async (formData, videoId) => {
+    try {
+      await updateVideo(formData, videoId); // Passa o ID do vídeo e os dados atualizados
+      // Outras ações após salvar, se necessário
+    } catch (error) {
+      console.error("Erro ao salvar vídeo", error);
+    }
+  };
 
   useEffect(() => {
     const fetchVideos = async () => {
+      setLoading(true);
       try {
         const videoData = await getVideos();
         setVideos(videoData);
-        setLoading(false);
       } catch (error) {
-        console.error("Error ao buscar videos", error);
+        console.error("Error ao buscar vídeos", error);
+      } finally {
         setLoading(false);
       }
     };
@@ -50,16 +62,25 @@ export const VideoProvider = ({ children }) => {
     }
   };
 
-  const updateVideo = async (videoId, updatedVideo) => {
+  
+
+  const updateVideo = async (updatedVideo, videoId) => {
     try {
-      const updatedData = await updateVideoService(videoId, updatedVideo);
+      setError(null);
+      const updatedData = await updateVideoService(updatedVideo, videoId);
+      
+
       setVideos((prevVideos) =>
         prevVideos.map((video) =>
           video.id === videoId ? { ...video, ...updatedData } : video
         )
       );
+
+      setMessage("Vídeo atualizado com sucesso!");
     } catch (error) {
       console.error("Erro ao atualizar vídeo", error);
+      setError("Não foi possível atualizar o vídeo. Tente novamente.");
+      setMessage("");  // Limpar a mensagem em caso de erro
     }
   };
 
@@ -78,7 +99,10 @@ export const VideoProvider = ({ children }) => {
       value={{
         videos,
         loading,
+        error,
         videoCategory,
+        message,
+        setMessage,
         addVideo,
         deleteVideo,
         updateVideo,
@@ -88,3 +112,5 @@ export const VideoProvider = ({ children }) => {
     </VideosContext.Provider>
   );
 };
+
+export default VideosContext;

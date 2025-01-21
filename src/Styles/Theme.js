@@ -10,7 +10,12 @@ const theme = {
     categoryColors: {
       "FRONT END": "#6bd1ff",
       "BACK END": "#00c86f",
-      MOBILE: "#ffba05",
+      "MOBILE": "#ffba05",
+    },
+    categoryBorders: {
+     "FRONT END": "#6bd1ff",
+      "BACK END": "#00c86f",
+      "MOBILE": "#ffba05",    
     },
   },
 };

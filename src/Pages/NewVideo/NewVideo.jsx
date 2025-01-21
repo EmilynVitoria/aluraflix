@@ -6,7 +6,10 @@ import {
   Textarea,
   Button,
   FormTitle,
+  Subtitle,
 } from "./NewVideo.styled";
+import ListaSuspensa from "../../Components/ListaSuspensa/ListaSuspensa";
+
 
 const NewVideo = () => {
   const { addVideo } = useVideoContext();
@@ -47,7 +50,9 @@ const NewVideo = () => {
 
   return (
     <FormContainer onSubmit={handleSubmit}>
-      <FormTitle>Adicionar Novo Vídeo</FormTitle>
+      <FormTitle>Adicionar Novo Vídeo
+      <Subtitle>Complete o formulário para criar um novo card de vídeo.</Subtitle>
+      </FormTitle>
       <Input
         type="text"
         name="titulo"
@@ -56,14 +61,14 @@ const NewVideo = () => {
         onChange={handleChange}
         required
       />
-      <Input
-        type="text"
+      <ListaSuspensa
         name="categoria"
-        placeholder="Categoria"
         value={formData.categoria}
         onChange={handleChange}
+        options={["FRONT END", "BACK END", "MOBILE"]}
         required
       />
+
       <Input
         type="text"
         name="img"
@@ -87,6 +92,8 @@ const NewVideo = () => {
         onChange={handleChange}
         required
       />
+
+      
       <Button type="submit">Salvar</Button>
       <Button type="button" onClick={handleReset}>
         Limpar
