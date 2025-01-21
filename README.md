@@ -4,6 +4,13 @@ Aluraflix é uma aplicação de catálogo de vídeos inspirada, projetada para g
 
 ---
 
+# Capturas:
+![aluraflix1](https://github.com/user-attachments/assets/d8ea1a99-e28f-4faa-8622-82096f29351f)
+![aluraflix2](https://github.com/user-attachments/assets/8c18f302-65a8-4bbf-918f-481dedbd94d3)
+![aluraflix3](https://github.com/user-attachments/assets/6c1fcabd-5446-4526-adf2-99c7d52da090)
+![aluraflix4](https://github.com/user-attachments/assets/71e19f4e-4815-49e8-83f2-dc2ab96d87b9)
+
+
 ## **Recursos**
 - Listagem de vídeos por categorias.
 - CRUD completo: Criar, Ler, Atualizar e Excluir vídeos.
